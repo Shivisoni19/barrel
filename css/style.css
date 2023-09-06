@@ -674,10 +674,12 @@ transform:translate(0px, 0px);
 	padding-bottom: 0;
 	position: relative;
 	background: #000;
+	/* background: #000 url(../images/center.webp) no-repeat; */
 }
 .tab-style-1:before {
 	content: '';
-	background: #000 url(../images/tab-style-1-bg.jpg) no-repeat center bottom;
+	/* background: #000 url(../images/tab-style-1-bg.jpg) no-repeat center bottom; */
+	/* background: #000 url(../images/center.webp) no-repeat center bottom; */
 	position: absolute;
 	left: 0;
 	bottom: 132px;
@@ -3388,4 +3390,14 @@ strong.logo-2 {
 .border-design{
 	border-radius: 104px 0px 55px 0px;
 	border: 2px solid #c5a059;
+}
+
+.bg-center{
+	float: left;
+    width: 100%;
+	height: 400px;
+    background-image: url(../images/center.webp);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
 }
